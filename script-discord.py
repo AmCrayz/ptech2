@@ -1,6 +1,6 @@
-from rivescript import RiveScript
-import discord
-import os
+#from rivescript import RiveScript
+#import discord
+#import os
 
 # Init Rivescript bot
 bot = RiveScript()
@@ -25,6 +25,6 @@ async def on_message(message):
     reply = bot.reply("localuser", message.content)
     await message.channel.send(reply)
 
-# Run discord client using bot token
+  # Run discord client using bot token
 client.run(os.environ['DISCORD_TOKEN'])
 
