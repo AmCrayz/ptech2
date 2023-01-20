@@ -1,6 +1,6 @@
-#from rivescript import RiveScript
-#import discord
-#import os
+from rivescript import RiveScript
+import discord
+import os
 
 # Init Rivescript bot
 bot = RiveScript()

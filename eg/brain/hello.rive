@@ -13,3 +13,13 @@
 - Super, et toi?
 - Bien :) toi?
 - Au top! Et toi?
+
+! sub nyc = new york
++ * heure * (paris|montpellier|marseille|londres|new york|tokyo)
+- !!time$$<star3>
+
++ * temps * (paris|montpellier|marseille|londres|new york|tokyo)
+- !!temps$$<star3>
+
++ * meteo * (paris|montpellier|marseille|londres|new york|tokyo)
+- !!meteo$$<star3>
